@@ -2,11 +2,7 @@ import { defineConfig } from 'vitepress';
 
 const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? '';
 const isUserSite = repoName.endsWith('.github.io');
-const base = process.env.GITHUB_ACTIONS
-  ? isUserSite
-    ? '/'
-    : `/${repoName}/`
-  : '/';
+const base = '/';
 
 export default defineConfig({
   base,
