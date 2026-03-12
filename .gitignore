@@ -1,0 +1,15 @@
+# Obsidian settings
+**/.obsidian/
+
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Build output / cache
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Generated content index
+docs/.generated/

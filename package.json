@@ -1,0 +1,28 @@
+{
+  "name": "readown",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run docs:dev",
+    "build": "npm run docs:build",
+    "parse:sections": "node scripts/parse-sections.mjs",
+    "validate:content": "node scripts/parse-sections.mjs --validate-only",
+    "verify:mcq": "node scripts/verify-mcq-feedback.mjs",
+    "verify:notebook-csv": "node scripts/verify-notebook-csv.mjs",
+    "predocs:dev": "npm run parse:sections",
+    "docs:dev": "vitepress dev docs --host 127.0.0.1 --port 5173",
+    "predocs:build": "npm run parse:sections",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "create:paper": "node scripts/create-paper.mjs",
+    "create:section": "node scripts/create-section.mjs"
+  },
+  "devDependencies": {
+    "lucide-vue-next": "^0.542.0",
+    "typescript": "^5.9.2",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.21",
+    "yaml": "^2.8.1"
+  }
+}
