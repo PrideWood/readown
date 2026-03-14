@@ -2,6 +2,8 @@
 import { computed, reactive } from 'vue';
 import { Eraser } from 'lucide-vue-next';
 import { clearPageHighlights } from '../composables/highlights';
+import TextSizeControl from './TextSizeControl.vue';
+import StickyQuestionPanel from './StickyQuestionPanel.vue';
 
 interface ParagraphItem {
   label: string;
@@ -84,8 +86,10 @@ function clearHighlightsForPage(): void {
       </div>
     </article>
 
-    <section class="card panel-card question-panel">
-      <h3>Statements</h3>
+    <StickyQuestionPanel title="Statements">
+      <template #tools>
+        <TextSizeControl />
+      </template>
       <p v-if="interactive && state.submitted"><strong>Score: {{ state.score }}/{{ statements.length }}</strong></p>
 
       <div class="question-item" v-for="statement in statements" :key="statement.id">
@@ -120,6 +124,6 @@ function clearHighlightsForPage(): void {
         <button type="button" class="submit-btn" :disabled="state.submitted" @click="submit">Submit</button>
         <button type="button" @click="reset">Reset</button>
       </div>
-    </section>
+    </StickyQuestionPanel>
   </div>
 </template>

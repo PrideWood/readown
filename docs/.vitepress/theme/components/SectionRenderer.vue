@@ -73,7 +73,7 @@ function onReset(): void {
 
     <TranslationSection
       v-else-if="meta.type === 'translation'"
-      :prompt="(sectionData as any).prompt || ''"
+      :source-text="(sectionData as any).sourceText || (sectionData as any).prompt || ''"
       :reference="(sectionData as any).reference || ''"
       :notes="(sectionData as any).notes || []"
     />

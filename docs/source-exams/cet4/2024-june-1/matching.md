@@ -1,0 +1,121 @@
+---
+examType: "cet4"
+session: "2024-june-1"
+type: "matching"
+part: "section-b"
+title: "CET-4 2024-june-1 Section B Matching"
+sectionId: "cet4-2024-june-1-section-b-matching"
+interactive: true
+---
+
+# CET-4 2024-june-1 Section B Matching
+
+## Passage Title
+Passage Title: Why Do Americans Work So Much?
+
+## Paragraphs
+
+### A
+How will we all keep busy when we only have to work 15 hours a week? That was the question that worried the British economist John Maynard Keynes when he wrote his short essay “Economic Possibilities for Our Grandchildren” in 1930. Over the next century, he predicted, the economy would become so productive that people would barely need to work at all. For a while, it looked like Keynes was right. In 1930 the average working week was 47 hours in the United States. But by 1970, the number of hours Americans worked on average had fallen to slightly less than 39.
+
+### B
+But then something changed. Instead of continuing to decline, the duration of the working week remained stable. It has stayed at just below 40 hours for nearly five decades. So what happened? Why are people working just as much today as in 1970?
+
+### C
+There would be no mystery in this if Keynes had been wrong about the power of technology to increase the economy’s productivity, which he thought would lead to a standard of living “between four and eight times as high as it is today.” But Keynes got that right: Technology has made the economy massively more productive. According to Benjamin M. Friedman, an economist at Harvard, the U.S. economy is right on track to reach Keynes’s eight-fold (八倍) multiple by 2029. That is a century after the last data Keynes would have had access to.
+
+### D
+In a new paper, Friedman tries to figure out why that increased productivity has not translated into increased leisure time. Perhaps people just never feel materially satisfied, always wanting more money to buy the next new thing. This is a theory that appeals to many economists. “This argument is, at best, far from sufficient,” he writes. If that were the case, why did the duration of the working week decline in the first place?
+
+### E
+Another theory Friedman considers is that, in an era of ever fewer settings that provide effective opportunities for personal connections and relationships, people may place more value on the socializing that happens at work. There is support for this theory. Many people today consider colleagues as friends. But Friedman argues that the evidence for this theory is far from conclusive. Many workers report that they would like to spend more time with family, rather than at work. Furthermore, this theory cannot explain the change in trend in the U.S. working week in the 1970s.
+
+### F
+A third possibility proves more convincing for Friedman. That is: American inequality means that the gains of increasing productivity are not widely shared by everyone. In other words, most Americans are too poor to work less. Unlike the other two explanations Friedman considers, this one fits chronologically (按年代). Inequality declined in America during the period following World War II, along with the duration of the working week. But since the early 1970s it has risen dramatically.
+
+### G
+Keynes’s prediction of a shorter working week rests on the idea that the standard of living would continue rising for everyone. But Friedman says that this is not what has happened. Although Keynes’s eight-fold figure holds up for the economy as a whole, it is not at all the case for the median (中位数的) American worker. For them, output by 2029 is likely to be around 3.5 times what it was when Keynes was writing. This is a bit below his four- to eight-fold predicted range.
+
+### H
+This can be seen in the median worker’s income over this time period, complete with a shift in 1973 that fits in precisely with when the working week stopped shrinking. According to Friedman, between 1947 and 1973 the average hourly wage for normal workers (those who were not in management roles) in private industries other than agriculture nearly doubled in terms of what their money could buy. But by 2013 the average hourly wage for ordinary workers had fallen 5 percent from the 1973 level in terms of actual purchasing power. Thus, though American incomes may have gone up since 1973, the amount that American workers can actually buy with their money has gone down. For most Americans, then, the magic of increasing productivity stopped working around 1973. Thus, they had to keep working just as much in order to maintain their standard of living.
+
+### I
+What Keynes predicted was a very optimistic version of what economists call technological unemployment. This is the idea that less labor will be necessary because machines can do so much. In Keynes’s vision, the resulting unemployment would be distributed more or less evenly across society in the form of increased leisure. But Friedman says that, for Americans, reality is much darker. Americans now have a labor market in which millions of people—those with fewer skills and less education—are seeking whatever poorly paid work they can get. This is confirmed by a recent poll that found that, for half of hourly workers, their top concern is not that they work too much but that they work too little. This is most likely not because they like their jobs so much. Rather, we can assume it is because they need the money.
+
+### J
+This explanation leaves an important question. If the very rich—the workers who have reaped above-average gains from the increased productivity since Keynes’s time—can afford to work less, why do they continue to work so much? (Indeed, research has shown that the highest earners in America tend to work the most.) Friedman believes that for many top earners, work is a labor of love. They are doing work they care about and are interested in, and doing more of it is not necessarily a burden. For them, it may even be a pleasure. These top earners derive meaning from their jobs and work is an important part of how they think of themselves. And, of course, they are compensated for it at a level that makes it worth their while.
+
+### K
+Friedman concludes that the prosperity (繁荣) Keynes predicted is here. After all, the economy as a whole has grown even more brilliantly than he expected. But for most Americans, that prosperity is nowhere to be seen. And, as a result, neither are those shorter working weeks.
+
+## Statements
+
+### 36
+Statement: Some people view socializing at the workplace as a chance to develop personal relationships.
+
+Answer: E
+
+Explanation: Paragraph E states that "in an era of ever fewer settings that provide effective opportunities for personal connections and relationships, people may place more value on the socializing that happens at work" and that "many people today consider colleagues as friends," which matches the statement.
+
+### 37
+Statement: As ordinary American workers’ average hourly pay had decreased despite increasing productivity, they had to work just as many hours as before to keep their living standards.
+
+Answer: H
+
+Explanation: Paragraph H notes that "by 2013 the average hourly wage for ordinary workers had fallen 5 percent from the 1973 level in terms of actual purchasing power" and that "they had to keep working just as much in order to maintain their standard of living," which aligns with the statement.
+
+### 38
+Statement: American workers’ average weekly working time has not changed for nearly half a century.
+
+Answer: B
+
+Explanation: Paragraph B says "the duration of the working week remained stable. It has stayed at just below 40 hours for nearly five decades," which directly matches the statement.
+
+### 39
+Statement: Friedman believes inequality in the U.S. largely explains why increasing productivity has not resulted in reduced working hours.
+
+Answer: F
+
+Explanation: Paragraph F states "a third possibility proves more convincing for Friedman. That is: American inequality means that the gains of increasing productivity are not widely shared by everyone," which is the core idea of the statement.
+
+### 40
+Statement: Many economists assume people’s thirst for material things has prevented them from enjoying more leisure time.
+
+Answer: D
+
+Explanation: Paragraph D mentions "perhaps people just never feel materially satisfied, always wanting more money to buy the next new thing. This is a theory that appeals to many economists," which matches the statement.
+
+### 41
+Statement: An economist’s prediction about a shorter average working week seemed to be correct for a time in the 20th century.
+
+Answer: A
+
+Explanation: Paragraph A introduces Keynes’ prediction of a shorter working week and notes "for a while, it looked like Keynes was right" (from 1930 to 1970, the average working week fell from 47 hours to less than 39), which aligns with the statement.
+
+### 42
+Statement: In the U.S. labor market, the primary concern of people with less schooling and fewer skills is to secure any employment even if it is low-paid.
+
+Answer: I
+
+Explanation: Paragraph I states "millions of people—those with fewer skills and less education—are seeking whatever poorly paid work they can get" and that their top concern is working too little (needing the money), which matches the statement.
+
+### 43
+Statement: Keynes was right in predicting that technology would make the economy much more productive.
+
+Answer: C
+
+Explanation: Paragraph C says "But Keynes got that right: Technology has made the economy massively more productive," which directly confirms the statement.
+
+### 44
+Statement: Many of the highest earners have a keen interest in and love for what they are doing.
+
+Answer: J
+
+Explanation: Paragraph J states "Friedman believes that for many top earners, work is a labor of love. They are doing work they care about and are interested in," which matches the statement.
+
+### 45
+Statement: According to Keynes, there would be a shorter working week with everyone’s standard of living living continuing to rise.
+
+Answer: G
+
+Explanation: Paragraph G says "Keynes’s prediction of a shorter working week rests on the idea that the standard of living would continue rising for everyone," which is exactly the content of the statement.

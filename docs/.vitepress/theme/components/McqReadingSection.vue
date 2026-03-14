@@ -2,6 +2,8 @@
 import { computed, reactive, watch } from 'vue';
 import { Eraser } from 'lucide-vue-next';
 import { clearPageHighlights } from '../composables/highlights';
+import TextSizeControl from './TextSizeControl.vue';
+import StickyQuestionPanel from './StickyQuestionPanel.vue';
 
 interface OptionItem {
   key: string;
@@ -102,8 +104,10 @@ function clearHighlightsForPage(): void {
       <p style="white-space: pre-line;">{{ passage }}</p>
     </article>
 
-    <section class="card panel-card question-panel">
-      <h3>MCQ Practice</h3>
+    <StickyQuestionPanel title="MCQ Practice">
+      <template #tools>
+        <TextSizeControl />
+      </template>
       <p v-if="state.submitted"><strong>Score: {{ state.score }}/{{ total }}</strong></p>
 
       <div v-for="q in questions" :key="q.id" class="question-item">
@@ -125,6 +129,6 @@ function clearHighlightsForPage(): void {
         <button type="button" class="submit-btn" :disabled="state.submitted" @click="submit">Submit</button>
         <button type="button" @click="reset">Reset</button>
       </div>
-    </section>
+    </StickyQuestionPanel>
   </div>
 </template>

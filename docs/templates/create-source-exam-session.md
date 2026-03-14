@@ -6,14 +6,14 @@ try {
     return;
   }
 
-  const session = await tp.system.prompt("Session name: e.g. 2024-june");
+  const session = await tp.system.prompt("Session name: e.g. 2024-june-1");
   if (!session) {
     new Notice("Cancelled: no session provided.");
     return;
   }
 
   const vault = app.vault;
-  const baseFolder = `exams/${examType}/${session}`;
+  const baseFolder = `source-exams/${examType}/${session}`;
 
   async function ensureFolder(folderPath) {
     const parts = folderPath.split("/");
@@ -80,8 +80,8 @@ try {
 
     const titleMap = {
       index: displayTitle,
-      "section-a-cloze": `${displayTitle} Section A Cloze`,
-      "section-b-matching": `${displayTitle} Section B Matching`,
+      cloze: `${displayTitle} Section A Cloze`,
+      matching: `${displayTitle} Section B Matching`,
       "section-c-reading-1": `${displayTitle} Section C Reading 1`,
       "section-c-reading-2": `${displayTitle} Section C Reading 2`,
       translation: `${displayTitle} Translation`,
@@ -93,6 +93,8 @@ try {
   function makeSectionId(kind, examType, session) {
     if (kind === "index") return `${examType}-${session}-index`;
     if (kind === "translation") return `${examType}-${session}-translation`;
+    if (kind === "cloze") return `${examType}-${session}-section-a-cloze`;
+    if (kind === "matching") return `${examType}-${session}-section-b-matching`;
     return `${examType}-${session}-${kind}`;
   }
 
@@ -115,18 +117,18 @@ try {
   await ensureFolder(baseFolder);
 
   const templateMap = {
-    index: "templates/exam-index.md",
-    "section-a-cloze": "templates/section-a-cloze.md",
-    "section-b-matching": "templates/section-b-matching.md",
-    "section-c-reading-1": "templates/section-c-reading-1.md",
-    "section-c-reading-2": "templates/section-c-reading-2.md",
-    translation: "templates/translation.md",
+    index: "templates/source-index.md",
+    cloze: "templates/source-cloze.md",
+    matching: "templates/source-matching.md",
+    "section-c-reading-1": "templates/source-reading.md",
+    "section-c-reading-2": "templates/source-reading.md",
+    translation: "templates/source-translation.md",
   };
 
   const fileKinds = [
     "index",
-    "section-a-cloze",
-    "section-b-matching",
+    "cloze",
+    "matching",
     "section-c-reading-1",
     "section-c-reading-2",
     "translation",
@@ -163,9 +165,9 @@ try {
     }
   }
 
-  new Notice(`Created: ${baseFolder}`);
+  new Notice(`Created source session: ${baseFolder}`);
 } catch (err) {
-  console.error("create-exam-session error:", err);
-  new Notice("create-exam-session failed. Open console for details.");
+  console.error("create-source-exam-session error:", err);
+  new Notice("create-source-exam-session failed. Open console for details.");
 }
 %>

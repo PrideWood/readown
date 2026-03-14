@@ -2,6 +2,8 @@
 import { computed, reactive, ref } from 'vue';
 import { Eraser } from 'lucide-vue-next';
 import { clearPageHighlights } from '../composables/highlights';
+import TextSizeControl from './TextSizeControl.vue';
+import StickyQuestionPanel from './StickyQuestionPanel.vue';
 
 interface BlankItem {
   id: string;
@@ -36,6 +38,7 @@ const blankLookup = computed(() => {
   for (const blank of props.blanks) map.set(blank.id, blank);
   return map;
 });
+const usedOptionKeys = computed(() => new Set(Object.values(state.answers).filter(Boolean)));
 
 const paragraphTokens = computed(() => {
   const tokens: Array<{ type: 'text' | 'blank'; text?: string; id?: string }> = [];
@@ -105,6 +108,10 @@ function blankState(blankId: string): string {
 function clearHighlightsForPage(): void {
   clearPageHighlights(props.pageKey);
 }
+
+function isOptionUsed(optionKey: string): boolean {
+  return usedOptionKeys.value.has(optionKey);
+}
 </script>
 
 <template>
@@ -139,8 +146,10 @@ function clearHighlightsForPage(): void {
       <p style="color: var(--read-muted); font-size: 0.82rem;">Click a blank slot, then click an option from the word bank.</p>
     </article>
 
-    <section class="card panel-card question-panel">
-      <h3>Word Bank</h3>
+    <StickyQuestionPanel title="Word Bank">
+      <template #tools>
+        <TextSizeControl />
+      </template>
       <p v-if="interactive && state.submitted"><strong>Score: {{ state.score }}/{{ blanks.length }}</strong></p>
 
       <div class="word-bank">
@@ -149,6 +158,7 @@ function clearHighlightsForPage(): void {
           :key="option.key"
           type="button"
           class="option-btn"
+          :class="{ 'word-used': isOptionUsed(option.key) }"
           :disabled="!interactive || !selectedBlankId || state.submitted"
           @click="pickOption(option.key)"
         >
@@ -160,6 +170,6 @@ function clearHighlightsForPage(): void {
         <button type="button" class="submit-btn" :disabled="state.submitted" @click="submit">Submit</button>
         <button type="button" @click="reset">Reset</button>
       </div>
-    </section>
+    </StickyQuestionPanel>
   </div>
 </template>
