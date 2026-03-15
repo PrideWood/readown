@@ -36,7 +36,7 @@ function onReset(): void {
 </script>
 
 <template>
-  <section v-if="meta" class="read-grid">
+  <section v-if="meta" class="read-grid section-layout" :class="`section-${meta.type}`">
     <McqReadingSection
       v-if="meta.type === 'mcq-reading'"
       :passage="(sectionData as any).passage || ''"

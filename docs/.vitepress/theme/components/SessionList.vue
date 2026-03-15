@@ -30,14 +30,18 @@ const summary = computed(() => {
       <p>{{ summary.completed }}/{{ summary.total }} interactive sections completed</p>
     </article>
 
-    <article v-for="session in sessions" :key="session.session" class="card session-card">
+    <a
+      v-for="session in sessions"
+      :key="session.session"
+      class="card session-card card-link"
+      :href="withBase(`/exams/${examType}/${session.session}/`)"
+    >
       <h3>{{ session.title || session.session }}</h3>
       <div class="card-meta">
         <span>{{ doneCount(session) }}/{{ session.sections.filter((s) => s.interactive).length }} completed</span>
         <span>{{ session.session }}</span>
       </div>
-      <a :href="withBase(`/exams/${examType}/${session.session}/`)">Open session</a>
-    </article>
+    </a>
 
     <p v-if="sessions.length === 0" class="card">No sessions yet.</p>
   </div>

@@ -1,0 +1,110 @@
+---
+examType: "cet6"
+session: "2025-june-1"
+type: "matching"
+part: "section-b"
+title: "CET-6 2025-june-1 Section B Matching"
+sectionId: "cet6-2025-june-1-section-b-matching"
+interactive: true
+---
+
+# CET-6 2025-june-1 Section B Matching
+
+## Passage Title
+Passage Title: Why Your Library Is the Most Important Place in Town
+
+## Paragraphs
+
+### A
+Librarians know the value of their community services, and their patrons appreciate their importance as well. But in an increasingly digital world, we see the role of libraries as community and cultural centers at times undervalued. When shrinking municipal budgets combine with the nonstop technological revolution, public library services that focus on building communities face-to-face, inspiring and educating patrons about art, literature, and music, and helping patrons engage in civil discourse can seem old-fashioned. But it is precisely those shrinking budgets and the assault of technologically mediated life that make public libraries cultural and community offerings more important than ever.
+
+### B
+Many people point out the value public libraries bring to their communities. More than just books and banks of computers, libraries are still places where individuals gather to explore, interact, and imagine. Some of the specific ways in which libraries add value to our communities and serve as cultural centers for our patrons are community builders, centers for the arts, and champions of youth. Libraries serve in these capacities and are more than just about information.
+
+### C
+As community builders, libraries are engaged in incredible work. From tiny public libraries to huge city institutions with multiple branches, libraries across the United States are building community and supporting local culture in exciting ways. These are inspiring and hopefully will encourage librarians interested in community services and cultural outreach to make connections with each other, share ideas, and build partnerships. Supporters of libraries as community builders claim that unless you are out there changing neighborhoods, you are not completing the work you are to do. Strengthening neighborhoods and championing the cultural lives of communities are big responsibilities.
+
+### D
+Place-based economic development stresses the importance of offering attractive, functional, and community-based places, such as libraries, in town squares and depressed neighborhoods. Like a major department store in a mall, libraries attract large numbers of people, creating economic opportunities for numerous businesses and organizations in the surrounding area. Large cities, medium-sized ones, and even small towns have successfully transformed their libraries into the hubs (枢纽) of vibrant neighborhoods.
+
+### E
+As key municipal agencies, and focal points for community education, libraries are major players in creating livable, environmentally friendly cities and towns. The Urban Libraries Council released a report detailing the unique ways in which libraries can further sustainability at the local level. Beyond ensuring that library construction projects consider environmental impact, libraries can take a lead in supporting local foods and craftsmen, like the Peabody Institute Library’s partnering with local businesses to pioneer a farmers’ market in their courtyard, or the Richmond Public Library’s seed lending library which “nurtures locally-adapted plant varieties, and fosters community resilience (韧性), self-reliance and a culture of sharing.”
+
+### F
+Archives preserve historic artifacts, oral histories, digital history projects, and scholarly writings relevant to the community, including minority groups. Communities lucky enough to have archivists have a great advantage when it comes to organizing historical records and artifacts. An organized archive is a place where people can research their ancestry and immigration history, do environmental research, and more. An archivist is an advocate for preservation who, among other things, coordinates the restoration of maps and paintings, the digitization of vital records, and the creation of oral history projects. With projects like the Massachussets Memories Road Show and the Veterans History Project, evidence of the importance of archives is everywhere.
+
+### G
+In the words of Robert Putnam, “People may go to the library looking mainly for information, but they find each other there.” New moms connect at baby story-times; elderly people, often facing difficult life transitions, attend events and find that they make new friends; teenagers meet up in libraries’ teen spaces after school; and readers discuss current events in the periodicals room. In libraries, community-building connections are happening all the time.
+
+### H
+As Keith Richards said, “The public library is the great equalizer.” Despite the rising costs of concert and theater tickets, public library events (including concerts, author visits, and gallery displays) are often offered free of charge, enabling people of any income level to attend. In addition, library book groups allow people to explore and discuss the literary arts, and the Great Stories Club introduces at-risk youth to literature. The best part: it’s all free and open to the public.
+
+### I
+In a time when education is increasingly expensive, public libraries provide information and educational opportunities free for all people, regardless of their socio-economic status. Offered by libraries across the country, American Library Association’s Let’s Talk about It programs are wonderful examples of scholar-facilitated learning opportunities in libraries. In addition, many libraries present classes and discussion programs and some even provide online continuing education courses such as the Universal Class database.
+
+### J
+Librarians know that patrons aren’t just information consumers they’re information producers. Patrons use the library to gain knowledge in order to create their own new and independent works. Increasing numbers of libraries provide spaces and services that meet the needs of people who want to learn how to edit Wikipedia, set up blogs or podcasts, create their own magazines, and so much more. Many libraries offer art or writing workshops and groups, and some provide music practice rooms for patrons. Programs like ImaginOn in Charlotte, North Carolina, provide exciting models that take community partnership, creativity, and creation to a new level.
+
+### K
+The decline of civil discourse stems in part from the fact that it is so easy for people to watch news about, buy products from, and engage—in both the virtual and real worlds—only with those of similar backgrounds and ideologies. Public libraries, through such programs as The Human Library and Socrates Café, can help build small communities of difference that encourage people to interact with and learn from each other through dialogue. By both actively promoting civil discourse through these programs, and modeling and upholding the principles of free inquiry and expression for all, libraries help individuals rediscover the importance of and increased need for civil discourse in American life.
+
+### L
+Free tutoring, homework help programs, and summer reading programs for kids and teens help bridge the economic divide that impacts students’ academic performance. The cost of hiring a private tutor is well beyond what many library patrons can afford, so libraries offer homework help and tutoring online, by phone, in person, and even through social media and homework apps. Annual summer reading programs also have a positive impact on student performance and, according to a 2010 study conducted by Dominican University’s Graduate School of Library and Information Science, students’ reading skills get a boost from these popular nationwide events.
+
+### M
+Through library collections, programs, and physical spaces, children learn to share to be engaged in their communities, to participate in the arts, and to explore their immediate world and the world at large. There are surely endless examples of innovative library services for children including the Middle Country Public Library’s Nature Explorium, which engages children in learning about the natural world.
+
+### N
+These examples are just a few of the many amazing things that public libraries around the United States (and the world) are doing to build and maintain strong community connections. We encourage you to try some of these ideas in your own libraries, and we hope that these ideas will help you be better able to convince your community leaders of the important role that public libraries play in communities large and small.
+
+## Statements
+
+### 36
+Statement: People going to the library in search of information can build connections with each other there.
+Answer: G
+Explanation: Paragraph G quotes Robert Putnam: “People may go to the library looking mainly for information, but they find each other there,” and gives examples of community connections formed in libraries, which matches the statement.
+
+### 37
+Statement: According to advocates of libraries as community builders, librarians are not doing their job well if they do not change their communities.
+Answer: C
+Explanation: Paragraph C states “Supporters of libraries as community builders claim that unless you are out there changing neighborhoods, you are not completing the work you are to do,” which aligns with the statement.
+
+### 38
+Statement: With the costs of education continually rising, public libraries remain places where all people can have access to education.
+Answer: I
+Explanation: Paragraph I says “In a time when education is increasingly expensive, public libraries provide information and educational opportunities free for all people, regardless of their socio-economic status,” which directly matches the statement.
+
+### 39
+Statement: Libraries draw large crowds, thus creating lots of business opportunities in neighboring areas.
+Answer: D
+Explanation: Paragraph D notes “Like a major department store in a mall, libraries attract large numbers of people, creating economic opportunities for numerous businesses and organizations in the surrounding area,” which aligns with the statement.
+
+### 40
+Statement: With the world more and more digitalized, people sometimes underestimate the role of libraries as community and cultural centers.
+Answer: A
+Explanation: Paragraph A says “But in an increasingly digital world, we see the role of libraries as community and cultural centers at times undervalued,” where “undervalued” is synonymous with “underestimate,” matching the statement.
+
+### 41
+Statement: Various programs organized by public libraries for children and adolescents help narrow the gap between students from varying economic backgrounds.
+Answer: L
+Explanation: Paragraph L states “Free tutoring, homework help programs, and summer reading programs for kids and teens help bridge the economic divide that impacts students’ academic performance,” where “bridge the economic divide” means “narrow the gap,” matching the statement.
+
+### 42
+Statement: In an organized archive, people can do research on their family history and find out how their ancestors came to settle in the new land.
+Answer: F
+Explanation: Paragraph F says “An organized archive is a place where people can research their ancestry and immigration history,” which matches the statement about family history and ancestor settlement research.
+
+### 43
+Statement: Public libraries organize cultural events, often allowing people of different income levels to attend free of charge.
+Answer: H
+Explanation: Paragraph H states “public library events (including concerts, author visits, and gallery displays) are often offered free of charge, enabling people of any income level to attend,” which directly matches the statement.
+
+### 44
+Statement: Besides being an information provider, the library performs many other important services for the community.
+Answer: B
+Explanation: Paragraph B says “More than just books and banks of computers, libraries are still places where individuals gather to explore, interact, and imagine” and lists roles like community builders, centers for the arts, and champions of youth, which matches the statement.
+
+### 45
+Statement: Public libraries can help build small communities of people with different backgrounds and ideologies.
+Answer: K
+Explanation: Paragraph K states “Public libraries… can help build small communities of difference that encourage people to interact with and learn from each other through dialogue,” where “communities of difference” refers to people with different backgrounds and ideologies, matching the statement.

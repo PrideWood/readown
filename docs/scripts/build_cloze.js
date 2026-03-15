@@ -128,21 +128,21 @@ function getSection(body, heading) {
 }
 
   function parseWordBank(text) {
-    const items = [];
-    const lines = text.split("\n");
+  const items = [];
+  const lines = text.split("\n");
 
-    for (const line of lines) {
-      const m = line.match(/^\s*-\s*([A-O])\.\s*(.*)$/);
-      if (m) {
-        items.push({
-          key: m[1],
-          text: m[2].trim()
-        });
-      }
+  for (const line of lines) {
+    const m = line.match(/^\s*-?\s*([A-O])[.\)）]\s*(.*)$/);
+    if (m) {
+      items.push({
+        key: m[1],
+        text: m[2].trim()
+      });
     }
-
-    return items;
   }
+
+  return items;
+}
 
   function parseAnswers(text) {
     const result = {};

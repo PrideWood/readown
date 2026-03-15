@@ -1,4 +1,4 @@
-async function build_session(tp) {
+async function build_session(tp, opts = {}) {
   const vault = app.vault;
 
   const build_cloze = tp.user.build_cloze;
@@ -6,13 +6,13 @@ async function build_session(tp) {
   const build_reading = tp.user.build_reading;
   const build_translation = tp.user.build_translation;
 
-  const examType = await tp.system.prompt("Exam type (e.g. cet4, cet6, kaoyan, gaokao)");
+  const examType = opts.examType || await tp.system.prompt("Exam type (e.g. cet4, cet6, kaoyan, gaokao)");
   if (!examType) {
     new Notice("Cancelled: no exam type provided.");
     return;
   }
 
-  const session = await tp.system.prompt("Session (e.g. 2024-june-1)");
+  const session = opts.session || await tp.system.prompt("Session (e.g. 2024-june-1)");
   if (!session) {
     new Notice("Cancelled: no session provided.");
     return;

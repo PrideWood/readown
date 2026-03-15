@@ -108,6 +108,35 @@ body {
   padding: 0.44rem 0.52rem;
 }
 
+.footer-curated {
+  margin: 1rem 0 0.04rem;
+  color: var(--read-muted);
+  font-size: 0.84rem;
+}
+
+.footer-curated a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-curated a:hover {
+  color: var(--vp-c-text-1);
+}
+
+.VPDoc .prev-next + .footer,
+.VPDoc .doc-footer {
+  margin-top: 1rem;
+  margin-bottom: 1em;
+  padding-bottom: 0;
+}
+
+.VPDoc .doc-footer .last-updated,
+.VPDoc .doc-footer .last-updated .prefix,
+.VPDoc .doc-footer .last-updated .time {
+  color: var(--read-muted);
+  font-size: 0.84rem;
+}
+
 @media (max-width: 860px) {
   .nav-search {
     display: none;
@@ -163,6 +192,16 @@ html[data-text-size='large'] {
 .read-grid {
   display: grid;
   gap: 0.9rem;
+}
+
+.section-layout.section-mcq-reading,
+.section-layout.section-cloze,
+.section-layout.section-translation {
+  margin-top: 0.55rem;
+}
+
+.VPHome a {
+  text-decoration: none !important;
 }
 
 .card {
@@ -454,6 +493,32 @@ mark.read-highlight-orange {
 .paper-card {
   display: grid;
   gap: 0.4rem;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link,
+.card-link * {
+  text-decoration: none !important;
+}
+
+.exam-card,
+.exam-card * {
+  text-decoration: none !important;
+}
+
+.card-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.card-title-row h3 {
+  margin: 0;
 }
 
 .panel-card {

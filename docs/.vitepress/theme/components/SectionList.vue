@@ -12,10 +12,9 @@ const sections = computed(() => getSessionSections(props.examType, props.session
 
 <template>
   <div class="read-grid">
-    <article v-for="section in sections" :key="section.sectionId" class="card paper-card">
-      <h3>{{ section.title }}</h3>
-      <div class="card-meta">
-        <span>{{ section.part }} · {{ section.type }}</span>
+    <a v-for="section in sections" :key="section.sectionId" class="card paper-card card-link" :href="withBase(section.route)">
+      <div class="card-title-row">
+        <h3>{{ section.title }}</h3>
         <span class="status-pill" :class="{ done: progressState[section.sectionId]?.done }">
           {{
             section.interactive
@@ -26,8 +25,7 @@ const sections = computed(() => getSessionSections(props.examType, props.session
           }}
         </span>
       </div>
-      <a :href="withBase(section.route)">Open section</a>
-    </article>
+    </a>
 
     <p v-if="sections.length === 0" class="card">No sections found in this session.</p>
   </div>

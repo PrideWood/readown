@@ -1,0 +1,83 @@
+---
+examType: "cet6"
+session: "2024-dec-1"
+type: "mcq-reading"
+part: "section-c"
+title: "CET-6 2024-dec-1 Section C Reading 2"
+sectionId: "cet6-2024-dec-1-section-c-reading-2"
+interactive: true
+---
+# CET-6 2024-dec-1 Section C Reading 2
+
+```section
+passage: |-
+  An awakening has been taking place in the physical world against the beauty model that has been dictated to us for years. But in the digital arena, social media determines what is considered beautiful.
+  
+  The two opposing struggles are taking place in parallel. In the physical world, the struggle goes against the underlying pressure exerted on women to conform to an unrealistic beauty ideal. As part of the struggle, various media outlets have presented women whose bodies don't correspond to the so-called ideal. All those women who had previously been excluded from the covers of magazines and television series and the public agenda, have become “legitimate”. At the same time, a group of influencers have begun to upload to social media photos of themselves without makeup, and even photos in which they highlight supposed flaws.
+  
+  Technology has reshaped our beauty ideal and is doing a great job communicating that message to the masses. One of the bizarre legacies of the past decade is the popularity of the “cyborg look”, which illustrates what Americans will look like in 2050.
+  
+  The cyborg look spread rapidly. Today, however, the Instagram face has become the new beauty ideal.
+  
+  The internalization of accepted beauty norms is much more effective when there is active involvement in the learning process. The active involvement of users is reflected in the gamified (游戏化的) interaction offered by the social media platforms --- the ability to like, write a comment, compare, share.
+  
+  Once the desired beauty ideal has been internalized, users are given tools or features to change their appearance to suit the accepted beauty ideal such as editing the image, choosing the ideal filter, the right background.
+  
+  A survey conducted in the United States revealed that more than 50% filter the images before posting them. And you will not be surprised to hear that the majority of them are women. One of the significant consequences of obsessive filtering is the emerging tendency to treat oneself as an object to be observed and valued, in the same way another person observes and judges from the side.
+  
+  The effect of the filters is already far beyond amiable amusement. The filters and the entire game played on the networks affect the mental health of the users. According to a study, apps like Instagram, Snapchat and FaceTune allow users to achieve a level of perfection that was previously only observed in beauty magazines.
+  
+  Even though humanity has always cherished beauty, in the last decade our obsession with looks has reached an unprecedented peak. The time spent on social media creates an urge to achieve an impossible beauty ideal so powerful that the only thing that can fix it is not cosmetic intervention, but mental health care.
+questions:
+  - id: "51"
+    prompt: "What do we learn about beauty in the digital arena?"
+    options:
+      A: "It dictates the taste of digital media."
+      B: "It has been in the making for years."
+      C: "It has ushered in a new awakening."
+      D: "It is defined by social media."
+    answer: "D"
+    explanation: "The passage states clearly in the first paragraph that “in the digital arena, social media determines what is considered beautiful.” This directly matches option D: \"It is defined by social media.\""
+
+  - id: "52"
+    prompt: "What does the passage say about beauty in the physical world?"
+    options:
+      A: "Women are under constant pressure to keep up with beauty models."
+      B: "Women are encouraged to pursue a beauty ideal that has never existed."
+      C: "A fight is going on to remove pressure on women to conform to an absurd beauty ideal."
+      D: "Media outlets have begun to present as beauty models trendy women without any makeup."
+    answer: "C"
+    explanation: "The passage mentions in the physical world, there is a struggle “against the underlying pressure exerted on women to conform to an unrealistic beauty ideal.” This matches option C."
+
+  - id: "53"
+    prompt: "What do we learn about the Instagram face?"
+    options:
+      A: "It is now regarded as the new beauty ideal."
+      B: "It is what most women will go after in 2050."
+      C: "It is being much talked about on social media."
+      D: "It is a perfect illustration of the ultimate beauty."
+    answer: "A"
+    explanation: "The passage states, “Today, however, the Instagram face has become the new beauty ideal.” This directly matches option A."
+
+  - id: "54"
+    prompt: "What has obsessive filtering resulted in?"
+    options:
+      A: "A good many women striving to reach an impossible level of perfection."
+      B: "An urge to turn the entire game played on the network to one’s advantage."
+      C: "A tendency to regard one’s body as an object of observation and judgment."
+      D: "An increasing number of women filtering their images before uploading them."
+    answer: "C"
+    explanation: "The passage notes that one significant consequence of obsessive filtering is “the emerging tendency to treat oneself as an object to be observed and valued.” This matches option C."
+
+  - id: "55"
+    prompt: "What does the author want to emphasize at the end of the passage regarding Americans’ obsession with looks?"
+    options:
+      A: "Cosmetic surgery should be made more accessible to the masses."
+      B: "Psychological intervention should be introduced to alleviate it."
+      C: "Their time spent on social media should be strictly controlled."
+      D: "Its root cause should be meticulously examined and analyzed."
+    answer: "B"
+    explanation: "The passage concludes by stating “the only thing that can fix it is not cosmetic intervention, but mental health care.” “Mental health care” corresponds to “psychological intervention” in option B."
+```
+
+<SectionRenderer />

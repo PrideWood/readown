@@ -17,7 +17,20 @@ const theme: Theme = {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'nav-bar-title-after': () => h(NavSearch)
+      'nav-bar-title-after': () => h(NavSearch),
+      'doc-footer-before': () =>
+        h('p', { class: 'footer-curated' }, [
+          'Curated by ',
+          h(
+            'a',
+            {
+              href: 'https://www.douban.com/people/PW2018/',
+              target: '_blank',
+              rel: 'noreferrer noopener'
+            },
+            'Wesley'
+          )
+        ])
     });
   },
   enhanceApp({ app }) {

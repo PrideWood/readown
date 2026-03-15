@@ -18,7 +18,7 @@ const sections = computed(() => getSectionsByType(props.type));
       <p>{{ sections.length }} section(s)</p>
     </article>
 
-    <article v-for="section in sections" :key="section.sectionId" class="card paper-card">
+    <a v-for="section in sections" :key="section.sectionId" class="card paper-card card-link" :href="withBase(section.route)">
       <h3>{{ section.title }}</h3>
       <div class="card-meta">
         <span>{{ section.examType.toUpperCase() }} / {{ section.session }} / {{ section.part }}</span>
@@ -26,8 +26,7 @@ const sections = computed(() => getSectionsByType(props.type));
           {{ section.interactive ? (progressState[section.sectionId]?.done ? 'Done' : 'Interactive') : 'Reference' }}
         </span>
       </div>
-      <a :href="withBase(section.route)">Open section</a>
-    </article>
+    </a>
 
     <p v-if="sections.length === 0" class="card">No sections found for this practice type.</p>
   </div>
