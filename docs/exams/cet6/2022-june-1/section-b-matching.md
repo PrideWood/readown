@@ -1,0 +1,94 @@
+---
+examType: "cet6"
+session: "2022-june-1"
+type: "matching"
+part: "section-b"
+title: "CET-6 2022-june-1 Section B Matching"
+sectionId: "cet6-2022-june-1-section-b-matching"
+interactive: true
+---
+# CET-6 2022-june-1 Section B Matching
+
+## The Doctor Will Skype You Now
+
+```section
+paragraphs:
+  - label: A
+    text: >-
+      Fazila is a young woman that has been dealing with eczema (湿疹), a common skin condition, for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn’t seem serious enough to make the trek, so she ignored it—until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion—which may be getting worse because of climate change-and a range of health risks, including poor nutrition, malaria (疟疾) and other water-borne diseases.
+  - label: B
+    text: >-
+      The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants—some of Bangladesh’s poorest—paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience’s sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer-reviewed journal Global Health Action.
+  - label: C
+    text: >-
+      On the islands, there’s even a colloquial (口头的) expression for the idea of making medical care your lowest priority: It’s known as “rog pushai rakha” in Bengali, which roughly translates to “stockpiling their diseases”—waiting to seek medical attention until a condition becomes extremely serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD’s medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure, blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift (临时凑合的) medical center which consists of plastic stools and small tables borrowed from the locals’ homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session.
+  - label: D
+    text: >-
+      Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid TD’s head physician, live-streamed (网络直播) from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa—“older sister” in Bengali—by her patients, she is one of three volunteer doctors at TD.
+  - label: E
+    text: >-
+      “I diagnose them through conversation,” says Dr. Mustahid. “Sometimes it’s really obvious things that local doctors don’t have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it’s because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks” Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources.
+  - label: F
+    text: >-
+      Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,000 people. And of those physicians, many are concentrated in cities: 70% of the country’s population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD’s 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems.
+  - label: G
+    text: >-
+      For most TD patients on the islands, Dr. Mustahid is the first big city doctor that they’ve ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailments—including digestive issues, joint pain, skin diseases, fever and the common cold—and refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal (产后的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense.
+  - label: H
+    text: >-
+      After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing worked for Fazila until she started seeing Dr. Apa.
+  - label: I
+    text: >-
+      Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information.
+  - label: J
+    text: >-
+      TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn’t doing enough for them. Patients often ask why the medicine isn’t free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can’t afford even that.
+  - label: K
+    text: >-
+      Nevertheless, TD’s remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. “Dr. Apa is patient,” he says, “At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.”
+statements:
+  - id: "36"
+    text: "Some children on the remote islands won’t eat their meals because they are fed cheap junk food."
+  - id: "37"
+    text: "Unlike other parts of Bangladesh, the number of women who die from giving birth remains high on the river islands."
+  - id: "38"
+    text: "One big problem many islanders have is that they can’t afford the prescribed medicines, even with discounts offered."
+  - id: "39"
+    text: "TD is a virtual medical service financially supported by one of the nation’s nonprofit organizations."
+  - id: "40"
+    text: "TD doctors are welcome to the islanders because they treat the sick with respect and patience."
+  - id: "41"
+    text: "Women islanders tend to have health problems early partly because they get married and give birth early."
+  - id: "42"
+    text: "TD doctors make weekly visits to the remote islands to provide services at a temporary medical center."
+  - id: "43"
+    text: "TD doctors provide the islanders with online diagnoses and treatments for common diseases."
+  - id: "44"
+    text: "The residents of the river islands have to keep moving their homes because of floods and land erosions."
+  - id: "45"
+    text: "Women islanders usually rely on their husbands to get some medicines for them without diagnoses and prescriptions."
+answers:
+  "36": "E"
+  "37": "B"
+  "38": "J"
+  "39": "D"
+  "40": "K"
+  "41": "F"
+  "42": "C"
+  "43": "G"
+  "44": "A"
+  "45": "H"
+explanation:
+  "36": "Paragraph E states that mothers complain children refuse meals because they are fed cheap packaged chips (junk food), which matches the statement."
+  "37": "Paragraph B notes “while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands,” meaning maternal death (women dying in childbirth) remains high on the islands, matching the statement."
+  "38": "Paragraph J says the organization offers discounts on medicines, but “still many residents can’t afford even that,” matching the statement."
+  "39": "Paragraph D states TD “is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals,” matching the statement."
+  "40": "Paragraph K quotes a resident saying “Dr. Apa is patient… here they listen to us,” contrasting with poor treatment at government hospitals, matching the statement."
+  "41": "Paragraph F states “Early marriage and young motherhood… also contribute to the early onset of health problems” for rural women, matching the statement."
+  "42": "Paragraph C says “Every week, TD’s medical operators travel to the islands by boat… and set up a makeshift (temporary) medical center,” matching the statement."
+  "43": "Paragraph G states TD doctors “can write prescriptions, diagnose common ailments… and refer patients to doctors at local hospitals” via live-streamed consultations, matching the statement."
+  "44": "Paragraph A says island residents “face repeated displacement from flooding and erosion,” meaning they have to move their homes repeatedly, matching the statement."
+  "45": "Paragraph H states women describe their illness to husbands, who then go to the pharmacy and return with “some random medicines” (without proper diagnosis/prescription), matching the statement."
+```
+
+<SectionRenderer />
