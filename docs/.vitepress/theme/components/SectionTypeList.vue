@@ -12,16 +12,15 @@ const sections = computed(() => getSectionsByType(props.type));
 </script>
 
 <template>
-  <div class="read-grid">
+  <div class="read-grid list-layout practice-list-layout">
     <article class="card">
       <h3>Total</h3>
       <p>{{ sections.length }} section(s)</p>
     </article>
 
     <a v-for="section in sections" :key="section.sectionId" class="card paper-card card-link" :href="withBase(section.route)">
-      <h3>{{ section.title }}</h3>
-      <div class="card-meta">
-        <span>{{ section.examType.toUpperCase() }} / {{ section.session }} / {{ section.part }}</span>
+      <div class="card-title-row">
+        <h3>{{ section.title }}</h3>
         <span class="status-pill" :class="{ done: progressState[section.sectionId]?.done }">
           {{ section.interactive ? (progressState[section.sectionId]?.done ? 'Done' : 'Interactive') : 'Reference' }}
         </span>

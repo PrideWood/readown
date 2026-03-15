@@ -24,7 +24,7 @@ const summary = computed(() => {
 </script>
 
 <template>
-  <div class="read-grid">
+  <div class="read-grid list-layout session-list-layout">
     <article class="card">
       <h3>Progress Summary</h3>
       <p>{{ summary.completed }}/{{ summary.total }} interactive sections completed</p>

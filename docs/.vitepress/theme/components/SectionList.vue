@@ -11,7 +11,7 @@ const sections = computed(() => getSessionSections(props.examType, props.session
 </script>
 
 <template>
-  <div class="read-grid">
+  <div class="read-grid list-layout section-list-layout">
     <a v-for="section in sections" :key="section.sectionId" class="card paper-card card-link" :href="withBase(section.route)">
       <div class="card-title-row">
         <h3>{{ section.title }}</h3>

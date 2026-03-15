@@ -39,7 +39,7 @@ body {
 .nav-search {
   position: relative;
   margin-left: 0.6rem;
-  width: min(42vw, 320px);
+  width: min(24vw, 180px);
 }
 
 .nav-search-input {
@@ -197,7 +197,11 @@ html[data-text-size='large'] {
 .section-layout.section-mcq-reading,
 .section-layout.section-cloze,
 .section-layout.section-translation {
-  margin-top: 0.55rem;
+  margin-top: 0.85rem;
+}
+
+.list-layout {
+  margin-top: 0.85rem;
 }
 
 .VPHome a {
