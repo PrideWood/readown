@@ -35,6 +35,6 @@ export default defineConfig({
   themeConfig: {
     aside: false,
     outline: false,
-    nav: [{ text: 'Notebook', link: '/notebook' }]
+    nav: []
   }
 });

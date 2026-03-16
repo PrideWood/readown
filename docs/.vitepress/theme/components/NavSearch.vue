@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
-import { useRouter } from 'vitepress';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue';
+import { useRouter, withBase } from 'vitepress';
+import { Notebook, Search } from 'lucide-vue-next';
 import { getAllSections } from '../composables/content';
 
 type SearchItemType = 'section' | 'session' | 'exam';
@@ -16,8 +17,10 @@ interface SearchItem {
 
 const router = useRouter();
 const rootRef = ref<HTMLElement | null>(null);
+const inputRef = ref<HTMLInputElement | null>(null);
 const input = ref('');
 const open = ref(false);
+const expanded = ref(false);
 const activeIndex = ref(-1);
 
 const items = computed<SearchItem[]>(() => {
@@ -88,15 +91,21 @@ const results = computed(() => {
     .map((entry) => entry.item);
 });
 
-function goTo(item: SearchItem): void {
-  router.go(item.route);
-  input.value = '';
-  open.value = false;
-  activeIndex.value = -1;
+function expandSearch(): void {
+  expanded.value = true;
+  nextTick(() => inputRef.value?.focus());
 }
 
-function onFocus(): void {
-  if (input.value.trim()) open.value = true;
+function collapseSearch(): void {
+  expanded.value = false;
+  open.value = false;
+  activeIndex.value = -1;
+  input.value = '';
+}
+
+function goTo(item: SearchItem): void {
+  router.go(item.route);
+  collapseSearch();
 }
 
 function onInput(): void {
@@ -105,6 +114,12 @@ function onInput(): void {
 }
 
 function onKeydown(event: KeyboardEvent): void {
+  if (event.key === 'Escape') {
+    event.preventDefault();
+    collapseSearch();
+    return;
+  }
+
   if (!open.value || !results.value.length) return;
   if (event.key === 'ArrowDown') {
     event.preventDefault();
@@ -116,16 +131,26 @@ function onKeydown(event: KeyboardEvent): void {
     event.preventDefault();
     const target = results.value[Math.max(activeIndex.value, 0)];
     if (target) goTo(target);
-  } else if (event.key === 'Escape') {
-    open.value = false;
   }
 }
 
 function onClickOutside(event: MouseEvent): void {
   if (!rootRef.value) return;
   if (!rootRef.value.contains(event.target as Node)) {
-    open.value = false;
+    collapseSearch();
   }
+}
+
+function onFocusOut(event: FocusEvent): void {
+  if (!rootRef.value) return;
+  const next = event.relatedTarget as Node | null;
+  if (next && rootRef.value.contains(next)) return;
+  window.setTimeout(() => {
+    if (!rootRef.value) return;
+    if (!rootRef.value.contains(document.activeElement)) {
+      collapseSearch();
+    }
+  }, 0);
 }
 
 onMounted(() => {
@@ -138,31 +163,55 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div ref="rootRef" class="nav-search">
-    <input
-      v-model="input"
-      class="nav-search-input"
-      type="search"
-      placeholder="search"
-      aria-label="Search exams and sessions"
-      @focus="onFocus"
-      @input="onInput"
-      @keydown="onKeydown"
-    />
-
-    <div v-if="open" class="nav-search-dropdown">
+  <div ref="rootRef" class="nav-tools" @click.stop @mousedown.stop @touchstart.stop @focusout="onFocusOut">
+    <div class="nav-search-shell" :class="{ expanded }">
       <button
-        v-for="(item, index) in results"
-        :key="item.key"
         type="button"
-        class="nav-search-item"
-        :class="{ active: index === activeIndex }"
-        @click="goTo(item)"
+        class="nav-tool-btn search-btn"
+        :class="{ active: expanded }"
+        aria-label="Search"
+        title="Search"
+        @pointerdown.stop.prevent="expandSearch"
+        @click.stop.prevent="expandSearch"
       >
-        <span class="nav-search-title">{{ item.title }}</span>
-        <span class="nav-search-subtitle">{{ item.subtitle }}</span>
+        <Search :size="16" />
       </button>
-      <p v-if="!results.length" class="nav-search-empty">No matching exam/session metadata</p>
+
+      <div class="nav-search-expand" :class="{ expanded }">
+        <Search :size="14" class="inline-search-icon" />
+        <input
+          ref="inputRef"
+          v-model="input"
+          class="nav-search-input"
+          type="search"
+          placeholder="search"
+          aria-label="Search exams and sessions"
+          @focus="expanded = true"
+          @input="onInput"
+          @keydown="onKeydown"
+        />
+      </div>
+
+      <div v-if="open" class="nav-search-dropdown">
+        <button
+          v-for="(item, index) in results"
+          :key="item.key"
+          type="button"
+          class="nav-search-item"
+          :class="{ active: index === activeIndex }"
+          @click.stop.prevent="goTo(item)"
+          @mousedown.stop
+          @touchstart.stop
+        >
+          <span class="nav-search-title">{{ item.title }}</span>
+          <span class="nav-search-subtitle">{{ item.subtitle }}</span>
+        </button>
+        <p v-if="!results.length" class="nav-search-empty">No matching exam/session metadata</p>
+      </div>
     </div>
+
+    <a class="nav-tool-btn notebook-btn" :href="withBase('/notebook')" aria-label="Notebook" title="Notebook">
+      <Notebook :size="16" />
+    </a>
   </div>
 </template>

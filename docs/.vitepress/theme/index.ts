@@ -17,7 +17,7 @@ const theme: Theme = {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'nav-bar-title-after': () => h(NavSearch),
+      'nav-bar-content-after': () => h(NavSearch),
       'doc-footer-before': () =>
         h('p', { class: 'footer-curated' }, [
           'Curated by ',
